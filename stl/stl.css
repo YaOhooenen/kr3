@@ -31,7 +31,7 @@ footer {
 
 .cont-ind {
     display: flex;
-    align-items: center;
+    flex-direction: column;
 }
 
 .cont-ind-t {
@@ -193,6 +193,11 @@ footer {
     display: flex;
     flex-direction: column;
     gap:10px;
+}
+
+.xcont-ind-h3{
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 /* Адаптивность для мобильных устройств */
